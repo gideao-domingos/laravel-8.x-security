@@ -4,7 +4,7 @@ This project aims to present the main security implementations in an application
 
 ## This project has the following security implementations:
 
- - **Auth** - Register, Login, Logout;
+ - **Auth** - Register, Login, Logout;, email confirmation, email validation, password recovery;
  - **Access control matrix** - with dynamic roles and permissions;
  - **Authorization**;
  - **Force create strong passwords**;
