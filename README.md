@@ -2,7 +2,7 @@
 
 This project aims to present the main security implementations in an application using Laravel 8.
 
-##This project has the following security implementations:
+## This project has the following security implementations:
 
 **Auth** - Register, Login, Logout;
 **Access control matrix** - with dynamic roles and permissions;
@@ -22,7 +22,7 @@ This project was inspired by the following projects:
  * https://github.com/codeanddeploy/laravel8-authentication-example.git
 And this tutorial: https://laraveldaily.com/password-expired-force-change-password-every-30-days/
 
-#Installation
+## Installation
 
 1. Open \App\Providers\AuthServiceProvider.php and comment the body of function boot(), this will be look like: 
     ```
@@ -64,7 +64,7 @@ And this tutorial: https://laraveldaily.com/password-expired-force-change-passwo
     ```
 Done!!
 
-##Credentials:
+## Credentials:
 
 *User1
   - email: superadmin@gmail.com',
@@ -74,5 +74,5 @@ Done!!
   - email: gd@gmail.com
   - password: 12345678
         
-##Author
+## Author
 Gideão Domingos
