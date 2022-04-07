@@ -20,7 +20,7 @@ And in the future other implementations will be made.
 This project was inspired by the following projects:
  * https://github.com/wmomesso/laravel_acl
  * https://github.com/codeanddeploy/laravel8-authentication-example.git
-And this tutorial: https://laraveldaily.com/password-expired-force-change-password-every-30-days/
+ * And this tutorial: https://laraveldaily.com/password-expired-force-change-password-every-30-days/
 
 ## Installation
 
