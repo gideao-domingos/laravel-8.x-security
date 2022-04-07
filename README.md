@@ -48,9 +48,7 @@ This project was inspired by the following projects:
 
 5.Open \App\Providers\AuthServiceProvider.php and remove the comment the body of function boot(), this will be look like:
 
-    ```
     public function boot(){
-        /*
         $this->registerPolicies();
         $permissions = Permission::all();
         foreach ($permissions as $permission) {
@@ -60,9 +58,8 @@ This project was inspired by the following projects:
                 }
             );
         }
-        */
     }
-    ```
+    
 Done!!
 
 ## Credentials:
