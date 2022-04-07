@@ -4,16 +4,16 @@ This project aims to present the main security implementations in an application
 
 ## This project has the following security implementations:
 
-**Auth** - Register, Login, Logout;
-**Access control matrix** - with dynamic roles and permissions;
-**Authorization**;
-**Force create strong passwords**;
-**Force users to reset password periodically (30 days by default)**
-**Logs** - to monitor user access to the application
-**Frontend validation** - with javascript;
-**Backend validation**;
-**DDOS** protection;
-**XSS** Protection.
+ - **Auth** - Register, Login, Logout;
+ - **Access control matrix** - with dynamic roles and permissions;
+ - **Authorization**;
+ - **Force create strong passwords**;
+ - **Force users to reset password periodically (30 days by default)**
+ - **Logs** - to monitor user access to the application
+ - **Frontend validation** - with javascript;
+ - **Backend validation**;
+ - **DDOS** protection;
+ - **XSS** Protection.
 
 And in the future other implementations will be made.
 
@@ -42,11 +42,11 @@ And this tutorial: https://laraveldaily.com/password-expired-force-change-passwo
     ```
 2.Run the command ```composer install``` (To use just download and install the dependencies).
 
-3. Create and insert database credentials in file .ENV.
+3.Create and insert database credentials in file .ENV.
 
 4.Run the command ```php artisan migrate --seed```.
 
-5. Open \App\Providers\AuthServiceProvider.php and remove the comment the body of function boot(), this will be look like:
+5.Open \App\Providers\AuthServiceProvider.php and remove the comment the body of function boot(), this will be look like:
     ```
     public function boot(){
         /*
