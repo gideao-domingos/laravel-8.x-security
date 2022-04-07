@@ -47,6 +47,7 @@ This project was inspired by the following projects:
 4.Run the command ```php artisan migrate --seed```.
 
 5.Open \App\Providers\AuthServiceProvider.php and remove the comment the body of function boot(), this will be look like:
+
     ```
     public function boot(){
         /*
@@ -66,11 +67,11 @@ Done!!
 
 ## Credentials:
 
-*User1
+#### User1
   - email: superadmin@gmail.com',
   - password: 12345678
             
-*User2
+#### User2
   - email: gd@gmail.com
   - password: 12345678
         
