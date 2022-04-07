@@ -27,6 +27,7 @@ class AuthServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        /*
         $this->registerPolicies();
         $permissions = Permission::all();
         foreach ($permissions as $permission) {
@@ -36,5 +37,6 @@ class AuthServiceProvider extends ServiceProvider
                 }
             );
         }
+        */
     }
 }
