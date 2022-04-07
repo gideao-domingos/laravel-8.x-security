@@ -68,7 +68,7 @@ Done!!
 ## Credentials:
 
 #### User1
-  - email: superadmin@gmail.com',
+  - email: superadmin@gmail.com
   - password: 12345678
             
 #### User2
