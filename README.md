@@ -64,11 +64,11 @@ Done!!
 
 ## Credentials:
 
-#### User1
+#### Admin
   - email: superadmin@gmail.com
   - password: 12345678
             
-#### User2
+#### Editor
   - email: gd@gmail.com
   - password: 12345678
         
