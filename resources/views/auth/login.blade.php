@@ -113,7 +113,7 @@
                 password.removeClass('is-invalid');
                 password.removeClass('border-success');
                 if(password.val().trim()==''){
-                    btnSubmit.prop('disabled', true);
+                    //btnSubmit.prop('disabled', true);
                     password.addClass('is-invalid');
                     erropassword.text('A Palavra-passe não deve estar em branco!');
                 }
