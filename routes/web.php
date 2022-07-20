@@ -34,4 +34,5 @@ Route::group(['middleware' => ['auth']], function() {
     });
     Route::get('password/expired', [ExpiredPasswordController::class, 'expired'])->name('password.expired');
     Route::post('password/post_expired', [ExpiredPasswordController::class, 'postExpired'])->name('password.post_expired');
+    Route::post('password/update/{id}', [UserController::class, 'passwordReset'])->name('password.update');
 });
