@@ -25,7 +25,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        Log::info("[Página - Home] [".Auth::user()->email."]");
+        Log::info("[Home - Page] [".Auth::user()->email."]");
         return view('home');
     }
 }
